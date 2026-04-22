@@ -1,0 +1,27 @@
+# Environment variables
+.env
+
+# Virtual environment
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# FAISS index (rebuilds automatically on run)
+*.faiss
+*.index
+
+# HuggingFace model cache
+.cache/
+
+# Mac system files
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
